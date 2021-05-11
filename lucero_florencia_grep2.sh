@@ -16,8 +16,8 @@ echo -e "${RED}Imprime todas las líneas que contienen una vocal seguidas de un 
 grep -E -i [a][[:alpha:]][a] grepdata.txt ; grep -E -i [e][[:alpha:]][e] grepdata.txt; grep -E -i [i][[:alpha:]][i] grepdata.txt ; grep -E -i [o][[:alpha:]][o] grepdata.txt ; grep -E -i [u][[:alpha:]][u] grepdata.txt
 echo -e "${RED}Ejercicio 5 ${NC}"
 echo -e "${RED}Imprime todas las líneas que no comiencen con S mayúscula ${NC}"
-grep -E -v '^[S]' grepdata.txt
+grep -v '^[S]' grepdata.txt
 echo -e "${RED}Ejercicio 6 ${NC}"
 echo -e "${RED}Imprime todas las líneas que contengan un correo electrónico ${NC}"
-grep -E '[@]' grepdata.txt
+grep  '@' grepdata.txt
 
