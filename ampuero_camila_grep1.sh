@@ -1,18 +1,18 @@
 echo "Trabajo practico número 3" Camila Ampuero
 
-Consigna 1
+echo Consigna 1
 
 grep 'x[[:digit:]][[:digit:]][[:digit:]][[:digit:]]' grepdata.txt
 
-consigna 2
+echo consigna 2
 
 grep -E "^[[:digit:]][[:digit:]][[:digit:]][[:space:]]{1}" grepdata.txt
 
-consigna 3
+echo consigna 3
 
 grep -E '[[:space:]]2[[:digit:]]{3}' grepdata.txt
 
-consigna 4
+echo consigna 4
 
 grep -iE '[a][[:alpha:]][a]' grepdata.txt
 
@@ -24,10 +24,10 @@ grep -iE '[o][[:alpha:]][o]' grepdata.txt
 
 grep -iE '[u][[:alpha:]][u]' grepdata.txt
 
-consigna 5
+echo consigna 5
 
 grep -v '^S' grepdata.txt
 
-consigna 6
+echo consigna 6
 
 grep "@" grepdata.txt
